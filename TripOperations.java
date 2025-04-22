@@ -39,7 +39,7 @@ public class TripOperations {
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
                 System.out.println(
-                        "\nStop #: " + rs.getInt(1) + ", Seq #: " + rs.getInt(2) + ", Drive Time: " + rs.getTime(3));
+                        "\nStop #: " + rs.getInt(1) + ", Seq #: " + rs.getInt(2) + ", Drive Time: " + rs.getInt(3));
             }
         }
     }
